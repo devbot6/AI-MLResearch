@@ -1,0 +1,32 @@
+LLMs
+
+What do LLMs do?
+LLMs are Large Language Models that take in text and return an intelligent answer. It can also finish sentences or make recommendations.
+
+How do they Function?
+
+    What are Vector Databases?
+    - A vector database is a special database that is used to store vector data.
+    - Often optimized to be output into a machine learning models especially LLMs
+    
+    What is a Vector in this context?
+    - mathematical representation of the data
+    - each vector has an array of numerical points to represent the data position
+    
+    Why use vector data rather than text data?
+    - vector data is much easier for an LLM to process vs text data
+
+    What does the LLM do with this vector data?
+    - the model takes in text input
+    - this input is then transformed into high-dimensional vector which represents the semantic and sytactic characteristics of the input text
+    - this is called embedding, or the transformation of text data into vectors with numerical data 
+
+    What does embedding use?
+    - Embedding uses a nueral netowrk model called the Embedding Model to represent text in the embedding space
+
+    Example:
+    - the text "I Love Data Science"
+    - if we represented this text using OpenAI model text-embedding 3-small would output a vector with 1536 demensions or:
+    - [0.024739108979701996, -0.04105354845523834, 0.006121257785707712, -0.02210472710430622, 0.029098540544509888,...]
+    - this number within the vector is the coordinate within the model's embedding space together this would form a unique representatioon of the sentence meaning
+    

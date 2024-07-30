@@ -1,0 +1,16 @@
+LoRA (Low-Rank Adaptation)
+
+QLoRA (Quantized Low-Rank Adaptation)
+
+What are they used for?
+- techniques used to fine-tune large language models (LLMs) more efficiently
+
+Why use LoRA?
+- Reduces overall memory footprint by applying a low-rank approximation to the weight update matrix overall reducing the number of parameters it takes to store the weight updates
+- offers fast fine tuning
+- maintains performance compared to traditional fine-tuning methods 
+
+Why use QLoRA?
+- Better parameter efficiency, does the same as LoRA this time instead of just applying the low-rank it Quantizes the weights to a lower precision to further reduce the memory footprint and storage requirements
+- super memory efficient
+- still maintains similar performance to that of LoRA

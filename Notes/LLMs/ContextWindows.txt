@@ -1,0 +1,10 @@
+What is a Token?
+- single unit of text
+- typically a word or a character
+- Tokenisation: the process of breaking down a piece of text into inddividual Token
+- foundation step in pre-processing text for further analysis
+
+Examples of Tokens:
+- Word level example, "I need coffee before I write", would be ['I', 'need', 'coffee', 'before', 'I', 'write'].
+- Punctuation or special chars example "Coffee is Life!!!" would be ['Coffee', 'is', 'life', '!', '!', '!'].
+- Character-level tokens include individual characters instead of words. This is used in Natural Language Generation (NLG).
