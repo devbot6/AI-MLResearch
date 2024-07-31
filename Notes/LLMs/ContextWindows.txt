@@ -8,3 +8,20 @@ Examples of Tokens:
 - Word level example, "I need coffee before I write", would be ['I', 'need', 'coffee', 'before', 'I', 'write'].
 - Punctuation or special chars example "Coffee is Life!!!" would be ['Coffee', 'is', 'life', '!', '!', '!'].
 - Character-level tokens include individual characters instead of words. This is used in Natural Language Generation (NLG).
+
+How to deal with the ambiguity of language?
+- language is often times naturally ambigous
+- Context windows help with This
+
+What is a Context Window?
+- A specified range og tokens surrounding a target token within a text or sequence.
+    
+    What does it help do?
+    - capture the contextual information of a target token by considering the neighboring tokens
+- the first target token will dictate the meaning of others in its neighborhood
+
+Some more details regarding context windows:
+- Size: the context window size dtermines the number of tokesn considered on each side of the target token.
+- Fixed/Variable size is when the size of your window is either the same the whole time or it changes depending on where you are in string
+- Training and prediction: in the training phase models use the context windows to learn representation and then during the prediciton/inference thye generate predictions or make decisions on the surroudning context
+
